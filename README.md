@@ -41,4 +41,4 @@ See the [enhancement requests](https://github.com/KnowTheCode/UpDevTools/issues?
 
 ## Contributions
 
-See [Contributing](https://gitlab.com/uptechlabs/UpDevTools/CONTRIBUTING.md) for details.
+See [Contributing](https://github.com/KnowTheCode/UpDevTools/CONTRIBUTING.md) for details.

@@ -2,13 +2,13 @@
 /**
  * Load up Whoops
  *
- * @package     UpTechLabs\UpDevTools\Support
+ * @package     KnowTheCode\UpDevTools\Support
  * @since       1.0.0
  * @author      hellofromTonya
- * @link        https://uptechlabs.io
+ * @link        https://KnowTheCode.io
  * @license     GPL-2.0+
  */
-namespace UpTechLabs\UpDevTools\Support;
+namespace KnowTheCode\UpDevTools\Support;
 
 use Whoops\Handler\PrettyPageHandler;
 use Whoops\Run;

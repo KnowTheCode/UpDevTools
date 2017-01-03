@@ -1,9 +1,9 @@
 {
-    "name" 			: "uptechlabs/updevtools",
+    "name" 			: "knowthecode/updevtools",
     "description" 	: "UpDevTools - A Suite of Developer Tools for WordPress development.",
     "type"          : "wordpress-plugin",
     "keywords" 		: ["wordpress", "wp", "plugin"],
-    "homepage" 		: "https://gitlab.com/uptechlabs/UpDevTools",
+    "homepage" 		: "https://github.com/KnowTheCode/UpDevTools",
     "license" 		: "GPL-2.0+",
     "require": {
         "php" : ">=5.4.0",
