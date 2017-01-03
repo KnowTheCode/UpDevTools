@@ -37,7 +37,7 @@ You are going to want to add on these plugins too:
 
 ## Enhancements
 
-See the [feature requests](https://gitlab.com/uptechlabs/updevtools/issues?label_name%5B%5D=feature-request) for the current list of enhancements.  We do plan to integrate Query Monitor into the platform, as it's vital to all WordPress development work.
+See the [enhancement requests](https://github.com/KnowTheCode/UpDevTools/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement) for the current list of enhancements.  We do plan to integrate Query Monitor into the platform, as it's vital to all WordPress development work.
 
 ## Contributions
 
