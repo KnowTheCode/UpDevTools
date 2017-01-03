@@ -23,10 +23,10 @@ This plugin includes the following features:
 ## Installation
 
 1. In terminal, navigate to `{path to your sandbox project}/wp-content/plugins`.
-2. Then type in terminal: `git clone git@gitlab.com:uptechlabs/updevtools.git`.
-3. Then type in terminal: `cd updevtools`
+2. Then type in terminal: `git clone git@github.com:KnowTheCode/UpDevTools.git`.
+3. Then type in terminal: `cd UpDevTools`
 4. Then type in terminal: `composer install`.  Composer will then install all of the updated dependencies in the `assets/vendor` folder.
-5. Log into your WorddPress website.
+5. Log into your WordPress website.
 6. Go to Plugins and activate the UpDevTools plugin.
 
 ## Add-ons
