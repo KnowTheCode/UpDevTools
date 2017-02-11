@@ -23,7 +23,7 @@ This plugin includes the following features:
 ## Installation
 
 1. In terminal, navigate to `{path to your sandbox project}/wp-content/plugins`.
-2. Then type in terminal: `git clone git@github.com:UpTechLabs/UpDevTools.git`.
+2. Then type in terminal: `git clone git@github.com:KnowTheCode/UpDevTools.git`.
 3. Then type in terminal: `cd UpDevTools`
 4. Then type in terminal: `composer install`.  Composer will then install all of the updated dependencies in the `assets/vendor` folder.
 5. Log into your WordPress website.
@@ -37,8 +37,8 @@ You are going to want to add on these plugins too:
 
 ## Enhancements
 
-See the [enhancement requests](https://github.com/UpTechLabs/UpDevTools/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement) for the current list of enhancements.  We do plan to integrate Query Monitor into the platform, as it's vital to all WordPress development work.
+See the [enhancement requests](https://github.com/KnowTheCode/UpDevTools/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement) for the current list of enhancements.  We do plan to integrate Query Monitor into the platform, as it's vital to all WordPress development work.
 
 ## Contributions
 
-See [Contributing](https://github.com/UpTechLabs/UpDevTools/CONTRIBUTING.md) for details.
+See [Contributing](https://github.com/KnowTheCode/UpDevTools/CONTRIBUTING.md) for details.
