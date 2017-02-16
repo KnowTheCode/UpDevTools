@@ -17,8 +17,6 @@ This plugin includes the following features:
 1. [Composer](https://getcomposer.org/) - Dependency Manager for PHP
 2. [Kint](http://raveren.github.io/kint/) - Awesome package that helps you to debug - forget `var_dump` and `print_r`. You are going to love Kint.
 3. [Whoops](https://github.com/filp/whoops) - Oh man, you will wonder why this isn't built into PHP. When an error occurs, this displayer replaces out the PHP orange table and gives you information you can actually use.
-4. [Carbon](http://carbon.nesbot.com/docs/) - A simple PHP DateTime wrapper 
-5. [Monolog](https://github.com/Seldaek/monolog) - PHP Logger
 
 ## Installation
 
@@ -38,6 +36,11 @@ You are going to want to add on these plugins too:
 ## Enhancements
 
 See the [enhancement requests](https://github.com/KnowTheCode/UpDevTools/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement) for the current list of enhancements.  We do plan to integrate Query Monitor into the platform, as it's vital to all WordPress development work.
+
+We will also integrate the following packages in the future for better reporting:
+
+1. [Carbon](http://carbon.nesbot.com/docs/) - A simple PHP DateTime wrapper 
+2. [Monolog](https://github.com/Seldaek/monolog) - PHP Logger
 
 ## Contributions
 
