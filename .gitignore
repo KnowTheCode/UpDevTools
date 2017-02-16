@@ -3,6 +3,8 @@ phpunit.xml
 .travis.yml
 /bin
 tests/mocks/env/
+
+# Composer
 composer.lock
 
 # Sass cache
