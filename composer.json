@@ -8,7 +8,7 @@
     "require": {
         "php" : ">=5.4.0",
         "raveren/kint" : "~1.0",
-        "filp/whoops": "~2.0",
+        "filp/whoops": "~2.0"
     },
     "suggest": {
         "johnbillion/query-monitor": "Monitors database and cache queries as well as provides an awesome amount of information to help you."
