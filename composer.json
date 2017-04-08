@@ -7,7 +7,7 @@
     "license" 		: "GPL-2.0+",
     "require": {
         "php" : ">=5.4.0",
-        "raveren/kint" : "~1.0",
+        "kint-php/kint" : "^1.0",
         "filp/whoops": "~2.0"
     },
     "suggest": {
