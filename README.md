@@ -15,7 +15,7 @@ Our vision is to continue growing this plugin.  We will be adding more tools and
 This plugin includes the following features:
 
 1. [Composer](https://getcomposer.org/) - Dependency Manager for PHP
-2. [Kint](http://raveren.github.io/kint/) - Awesome package that helps you to debug - forget `var_dump` and `print_r`. You are going to love Kint.
+2. [Kint](https://github.com/kint-php/kint) - Awesome package that helps you to debug - forget `var_dump` and `print_r`. You are going to love Kint.
 3. [Whoops](https://github.com/filp/whoops) - Oh man, you will wonder why this isn't built into PHP. When an error occurs, this displayer replaces out the PHP orange table and gives you information you can actually use.
 
 ## Installation
