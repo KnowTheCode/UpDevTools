@@ -1,3 +1,9 @@
+## 1.0.3 (04.July.2017)
+
+- fixed `UPDEVTOOLS_DIR` constant
+- added admin bar notification and styling to alert developers this plugin is activated per [issue #7](https://github.com/KnowTheCode/UpDevTools/issues/4)
+- Changed "support" folder to "Support"
+
 ## 1.0.2 (04.July.2017)
 
 - removed whoops setup from global space and moved into a function

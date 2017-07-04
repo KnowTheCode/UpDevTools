@@ -15,7 +15,8 @@
     },
     "autoload" : {
         "files": [
-            "src/support/whoops-loader.php"
+            "src/Support/whoops-loader.php",
+            "src/Admin/admin-color.php"
         ]
     },
     "extra": {
