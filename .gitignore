@@ -1,15 +1,3 @@
-# Unit tests config
-phpunit.xml
-.travis.yml
-/bin
-tests/mocks/env/
-
-# Composer
-composer.lock
-
-# Sass cache
-.sass-cache/
-
 # Development files
 /node_modules
 /assets/vendor/
