@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "23bf145ba4c0f84be40d4e76fa366c5f",
-    "content-hash": "ace18de5896bb962ae5ddc8337ed63d2",
+    "hash": "0750ad47228addea12426dbc2dfac0ba",
+    "content-hash": "c5ab0230680ab6864640b9ec359b1549",
     "packages": [
         {
             "name": "filp/whoops",
@@ -70,16 +70,16 @@
         },
         {
             "name": "kint-php/kint",
-            "version": "1.x-dev",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kint-php/kint.git",
-                "reference": "19d04d3ec4119dfe0f983c5a73a9fee06e839ceb"
+                "reference": "a8549198558560b24e2879c6bac2875de5371483"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kint-php/kint/zipball/19d04d3ec4119dfe0f983c5a73a9fee06e839ceb",
-                "reference": "19d04d3ec4119dfe0f983c5a73a9fee06e839ceb",
+                "url": "https://api.github.com/repos/kint-php/kint/zipball/a8549198558560b24e2879c6bac2875de5371483",
+                "reference": "a8549198558560b24e2879c6bac2875de5371483",
                 "shasum": ""
             },
             "require": {
@@ -117,20 +117,20 @@
                 "kint",
                 "php"
             ],
-            "time": "2017-03-10 18:10:23"
+            "time": "2017-01-15 14:23:43"
         },
         {
             "name": "psr/log",
-            "version": "dev-master",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "c4421fcac1edd5a324fda73e589a5cf96e52ffd0"
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
-                "reference": "c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
                 "shasum": ""
             },
             "require": {
@@ -139,7 +139,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -164,17 +164,17 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2018-11-21 13:42:00"
+            "time": "2018-11-20 15:27:04"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6"
+        "php": "^5.6 || ^7"
     },
     "platform-dev": []
 }

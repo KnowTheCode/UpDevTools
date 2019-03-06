@@ -1,31 +1,27 @@
 {
-    "name" 			: "knowthecode/updevtools",
-    "description" 	: "UpDevTools - A Suite of Developer Tools for WordPress development.",
-    "type"          : "wordpress-plugin",
-    "keywords" 		: ["wordpress", "wp", "plugin"],
-    "homepage" 		: "https://github.com/KnowTheCode/UpDevTools",
-    "license" 		: "GPL-2.0+",
-    "require": {
-        "php" : ">=5.6",
-        "kint-php/kint" : "^1",
-        "filp/whoops": "^2"
-    },
-    "suggest": {
-        "johnbillion/query-monitor": "Monitors database and cache queries as well as provides an awesome amount of information to help you."
-    },
-    "autoload" : {
-        "files": [
-            "src/Support/whoops-loader.php",
-            "src/Admin/admin-color.php"
-        ]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
-    },
-    "config": {
-        "vendor-dir": "assets/vendor"
-    },
-    "minimum-stability": "dev"
+  "name": "knowthecode/updevtools",
+  "description": "UpDevTools - A Suite of Developer Tools for WordPress development.",
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/KnowTheCode/UpDevTools",
+  "license": "GPL-2.0+",
+  "require": {
+    "php": "^5.6 || ^7",
+    "kint-php/kint": "^1",
+    "filp/whoops": "^2"
+  },
+  "suggest": {
+    "johnbillion/query-monitor": "Monitors database and cache queries as well as provides an awesome amount of information to help you."
+  },
+  "autoload": {
+    "files": [
+      "src/Support/whoops-loader.php",
+      "src/Admin/admin-color.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "support": {
+    "issues": "https://github.com/KnowTheCode/UpDevTools/issues",
+    "source": "https://github.com/KnowTheCode/UpDevTools"
+  }
 }

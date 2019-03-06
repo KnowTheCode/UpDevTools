@@ -1,6 +1,6 @@
 # UpDevTools
 
-UpDevTools - An integrated suite of developer tools for your development environment including Kint, Whoops, Mockery, PHPUnit, Carbon, and Monolog.
+UpDevTools - An integrated suite of developer tools for your development environment including Kint and Whoops.
 
 As a WordPress developer, you need development tools that put information in your hands.  We need one handy-dandy plugin that has all of our goodies to do our thang.  UpDevTools seeks to solve that problem.
 
@@ -32,15 +32,6 @@ This plugin includes the following features:
 You are going to want to add on these plugins too:
 
 1. [Query Monitor](https://github.com/johnbillion/query-monitor) - We use Query Monitor to analyze the queries.
-
-## Enhancements
-
-See the [enhancement requests](https://github.com/KnowTheCode/UpDevTools/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement) for the current list of enhancements.  We do plan to integrate Query Monitor into the platform, as it's vital to all WordPress development work.
-
-We will also integrate the following packages in the future for better reporting:
-
-1. [Carbon](http://carbon.nesbot.com/docs/) - A simple PHP DateTime wrapper 
-2. [Monolog](https://github.com/Seldaek/monolog) - PHP Logger
 
 ## Contributions
 
