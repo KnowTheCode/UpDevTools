@@ -10,7 +10,7 @@
  * Plugin Name: UpDevTools WordPress Plugin
  * Plugin URI:  https://github.com/KnowTheCode/UpDevTools
  * Description: An integrated suite of development tools for your WordPress development environment, all wrapped up in one handy dandy plugin. You get Kint, Whoops, Mockery, PHPUnit, Carbon, and Monolog.  Want more? Come contribute.
- * Version:     1.1.0
+ * Version:     1.2.0
  * Author:      hellofromTonya
  * Author URI:  https://KnowTheCode.io
  * Text Domain: updevtools
@@ -25,33 +25,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Setup the plugin's constants.
+ * Gets the plugin's root directory.
  *
- * @since 1.0.3
+ * @since 1.2.0
  *
- * @return void
+ * @return string
  */
-function init_constants() {
-	$plugin_url = plugin_dir_url( __FILE__ );
-	if ( is_ssl() ) {
-		$plugin_url = str_replace( 'http://', 'https://', $plugin_url );
-	}
-
-	define( 'UPDEVTOOLS_URL', $plugin_url );
-	define( 'UPDEVTOOLS_DIR', plugin_dir_path( __FILE__ ) );
+function _get_plugin_root_dir() {
+	return __DIR__;
 }
 
-/**
- * Launch the plugin
- *
- * @since 1.0.0
- *
- * @return void
- */
-function launch() {
-	init_constants();
-
-	require_once( __DIR__ . '/assets/vendor/autoload.php' );
-}
-
-launch();
+require_once __DIR__ . '/assets/vendor/autoload.php';

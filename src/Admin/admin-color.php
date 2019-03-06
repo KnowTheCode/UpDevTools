@@ -12,6 +12,8 @@
 
 namespace KnowTheCode\UpDevTools\Admin;
 
+use function KnowTheCode\UpDevTools\_get_plugin_root_dir;
+
 add_filter( 'get_user_option_admin_color', __NAMESPACE__ . '\set_local_development_admin_color_scheme', 5 );
 /**
  * Force different admin color scheme when this plugin is active.
@@ -66,7 +68,7 @@ function render_admin_bar_css() {
 
 	ob_start();
 
-	include( UPDEVTOOLS_DIR . 'assets/css/admin-bar.php' );
+	include _get_plugin_root_dir() . '/assets/css/admin-bar.php';
 
 	$css_pattern = ob_get_clean();
 
@@ -86,7 +88,7 @@ function get_admin_bar_config( $parameter = '' ) {
 	static $config = array();
 
 	if ( ! $config ) {
-		$config = include( UPDEVTOOLS_DIR . '/config/admin-bar.php' );
+		$config = include _get_plugin_root_dir() . '/config/admin-bar.php';
 	}
 
 	if ( $parameter && isset( $config[ $parameter ] ) ) {
