@@ -20,7 +20,7 @@ use Whoops\Run;
  * @since 1.1.0
  */
 function setup_whoops() {
-	$whoops     = new Run();
+	$whoops = new Run();
 	$whoops->pushHandler( new PrettyPageHandler );
 	$whoops->register();
 }

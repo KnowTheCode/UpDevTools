@@ -1,3 +1,9 @@
+## 1.2.0 (06.Mar.2018)
+
+- replaced constants with utility function.
+- changed min. PHP to 5.6.
+- simplied Whoops setup.
+
 ## 1.0.3 (04.July.2017)
 
 - fixed `UPDEVTOOLS_DIR` constant

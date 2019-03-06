@@ -43,11 +43,11 @@ function add_admin_bar_notice() {
 
 	$message = get_admin_bar_config( 'message' );
 
-	$admin_notice = array(
+	$admin_notice = [
 		'parent' => 'top-secondary',
 		'id'     => 'environment-notice',
 		'title'  => sprintf( '<span class="adminbar--environment-notice">%s</span>', $message ),
-	);
+	];
 
 	$wp_admin_bar->add_menu( $admin_notice );
 }
@@ -72,7 +72,7 @@ function render_admin_bar_css() {
 
 	$css_pattern = ob_get_clean();
 
-	vprintf( $css_pattern, get_admin_bar_config('colors') );
+	vprintf( $css_pattern, get_admin_bar_config( 'colors' ) );
 }
 
 /**
@@ -85,7 +85,7 @@ function render_admin_bar_css() {
  * @return array|mixed
  */
 function get_admin_bar_config( $parameter = '' ) {
-	static $config = array();
+	static $config = [];
 
 	if ( ! $config ) {
 		$config = include _get_plugin_root_dir() . '/config/admin-bar.php';
