@@ -35,4 +35,4 @@ function _get_plugin_root_dir() {
 	return __DIR__;
 }
 
-require_once __DIR__ . '/assets/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
