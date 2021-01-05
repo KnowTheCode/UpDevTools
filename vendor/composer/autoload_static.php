@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInitcdce1547e94626464cb6e151646a63e1
 {
     public static $files = array (
-        '35d1e42abf4d8c181ae544a92d8f3f6a' => __DIR__ . '/..' . '/kint-php/kint/Kint.class.php',
+        '3917c79c5052b270641b5a200963dbc2' => __DIR__ . '/..' . '/kint-php/kint/init.php',
         '598f6ff116a3a9ebed039e8721551d6d' => __DIR__ . '/../..' . '/src/Support/whoops-loader.php',
         'bc9d28b6d7d8d656e84ad897d81ca719' => __DIR__ . '/../..' . '/src/Admin/admin-color.php',
     );
@@ -21,6 +21,10 @@ class ComposerStaticInitcdce1547e94626464cb6e151646a63e1
         array (
             'Psr\\Log\\' => 8,
         ),
+        'K' => 
+        array (
+            'Kint\\' => 5,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -31,6 +35,10 @@ class ComposerStaticInitcdce1547e94626464cb6e151646a63e1
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Kint\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kint-php/kint/src',
         ),
     );
 
