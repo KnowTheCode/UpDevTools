@@ -5,7 +5,7 @@
   "homepage": "https://github.com/KnowTheCode/UpDevTools",
   "license": "GPL-2.0+",
   "require": {
-    "php": "^5.6 || ^7",
+    "php": "^5.6 || ^7 || ^8.0",
     "kint-php/kint": "^1",
     "filp/whoops": "^2"
   },
